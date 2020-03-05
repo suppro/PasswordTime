@@ -57,6 +57,7 @@ public class Frame extends JFrame {
             public void actionPerformed(ActionEvent actionEvent) {
                 smallField.setEnabled(true);
                 cbFirst.setEnabled(false);
+                smallField1.setEnabled(false);
                 changePass = (String)cbFirst.getSelectedItem();
             }
         });
